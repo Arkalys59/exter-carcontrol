@@ -9,7 +9,7 @@ shared_script {
 	'config.lua',
 }
 
-client_script 'c.lua'
+client_script 'client.lua'
 
 ui_page 'html/index.html'
 
