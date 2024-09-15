@@ -6,10 +6,12 @@ This script is standalone. if you use qb-radialmenu you can follow my instructio
 search this code in qb-radialmenu/client/main.lua
 
     local VehicleMenu = {
-        id = 'vehicle',
-        title = 'Vehicle',
+        id = 'control',
+        title = 'Car Control',
         icon = 'car',
-        items = {}
+        type = 'client',
+        event = 'vehcontrol:openExternal',
+        shouldClose = true,
     }
 
 and change with this code
