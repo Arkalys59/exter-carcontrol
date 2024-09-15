@@ -25,5 +25,5 @@ and change with this code
         shouldClose = true,
     }
 
-
+    RegisterNetEvent('carmenuevent')
 
